@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+body {
+   
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0eeee91;
+}
+
+header {
+    font-family: "Creepster", system-ui;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+}
+
+nav {
+    font-family:"Protest Revolution", sans-serif;
+    background-color: #773a3a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    
+    font-family: "Rajdhani", sans-serif;
+    text-align: justify;
+    padding: 20px;
+    border-bottom: 2px solid rgb(230, 176, 189);
+      
+}
+
+footer {
+    font-family: "Rajdhani", sans-serif;
+    background-color: #000000;
+    color: rgb(191, 56, 60);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+}
+
+.img{
+    max-width: 250px;
+
+}
